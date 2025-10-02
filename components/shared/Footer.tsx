@@ -23,7 +23,7 @@ export const Footer = () => {
             <h4 className="text-lg font-bold mb-3 text-[#D44700]">Navegação</h4> {/* Título Laranja Intenso */}
             <ul className="space-y-2 font-bold text-sm">
               <li><Link href="/processo-seletivo" className="hover:text-[#FF8C00] transition">Processo Seletivo</Link></li> {/* Hover Laranja Chama */}
-              <li><Link href="/memorial" className="hover:text-[#FF8C00] transition">Memorial das Ex-Moradoras</Link></li>
+              <li><Link href="/memorial" className="hover:text-[#FF8C00] transition">Memorial das Ex-Moradoras e homenageados</Link></li>
               <li><Link href="/contato" className="hover:text-[#FF8C00] transition">Fale Conosco</Link></li>
             </ul>
           </div>
@@ -32,8 +32,8 @@ export const Footer = () => {
           <div className="w-full md:w-1/3">
             <h4 className="text-lg font-bold mb-3">Siga a Rebu</h4> {/* Título Laranja Intenso */}
             <div className="flex space-x-4 font-bold">
-              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF8C00]transition">Instagram</a> {/* Hover Laranja Chama */}
-              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF8C00] transition">Facebook</a>
+              <a href="https://www.instagram.com/republicarebu/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF8C00]transition">Instagram</a> {/* Hover Laranja Chama */}
+              <a href="https://www.facebook.com/rebuouropreto/photos?locale=pt_BR" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF8C00] transition">Facebook</a>
             </div>
           </div>
         </div>

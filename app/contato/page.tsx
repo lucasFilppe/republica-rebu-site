@@ -65,25 +65,25 @@ export default function Contato() {
                                         type="text" 
                                         placeholder="Seu Nome Completo" 
                                         required 
-                                        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition"
+                                        className="text-gray-600 w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition"
                                     />
                                     <input 
                                         type="email" 
                                         placeholder="Seu Melhor E-mail" 
                                         required 
-                                        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition"
+                                        className="text-gray-600 w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition"
                                     />
                                     <input 
                                         type="text" 
-                                        placeholder="Assunto (Ex: Dúvida sobre Rodada)" 
+                                        placeholder="Assunto (Ex: Dúvidas)" 
                                         required 
-                                        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition"
+                                        className="text-gray-600 w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition"
                                     />
                                     <textarea 
                                         placeholder="Sua Mensagem..." 
                                         rows={4} 
                                         required 
-                                        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition resize-none"
+                                        className="text-gray-600 w-full p-3 border border-gray-300 rounded-lg focus:ring-[#D44700] focus:border-[#D44700] transition resize-none"
                                     ></textarea>
                                     
                                     <button 
