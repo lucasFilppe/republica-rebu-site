@@ -13,6 +13,7 @@ const navItems = [
   { name: 'A Casa', href: '/a-casa' },
   { name: 'Processo Seletivo', href: '/processo-seletivo' },
   { name: 'Memorial', href: '/memorial' },
+  { name: 'Experiências', href: '/experiencias' },
   { name: 'Contato', href: '/contato' },
 ];
 

@@ -4,6 +4,9 @@ import './globals.css'; // Importa o CSS global e o Tailwind
 // 1. Importa as duas fontes do Google
 import { Inter, Oswald } from 'next/font/google';
 
+// Importe o AuthProvider que você acabou de criar
+import AuthProvider from '../components/shared/SessionProvider'; 
+
 // 2. Cria as instâncias das fontes, adicionando 'variable'
 //    Oswald será a fonte dos títulos
 const oswald = Oswald({ 
@@ -34,9 +37,12 @@ export default function RootLayout({
     // 3. Aplica as variáveis CSS das fontes ao elemento <html>
     <html lang="pt-BR" className={`${inter.variable} ${oswald.variable}`}>
       {/* 4. Aplica a fonte padrão 'sans' ao corpo */}
+
       <body className={`font-sans antialiased bg-gray-50 min-h-screen flex flex-col`}>
         {/* O children aqui é o conteúdo de cada página */}
+        <AuthProvider>
         {children}
+        </AuthProvider>
       </body>
     </html>
   );
