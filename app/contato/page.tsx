@@ -15,8 +15,8 @@ const contatoInfo = [
 ];
 
 const socialLinks = [
-    { icon: Instagram, name: 'Instagram', href: '#', color: 'text-pink-600 hover:text-pink-700' },
-    { icon: Facebook, name: 'Facebook', href: '#', color: 'text-blue-600 hover:text-blue-700' },
+    { icon: Instagram, name: 'Instagram', href: 'https://www.instagram.com/republicarebu/', color: 'text-pink-600 hover:text-pink-700' },
+    { icon: Facebook, name: 'Facebook', href: 'https://www.facebook.com/rebuouropreto/photos?locale=pt_BR', color: 'text-blue-600 hover:text-blue-700' },
 ];
 
 // O BLOCO 'metadata' FOI REMOVIDO DAQUI E MOVIDO PARA 'app/contato/layout.tsx'

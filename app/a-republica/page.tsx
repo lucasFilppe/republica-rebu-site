@@ -36,7 +36,7 @@ export default function ARepublica() { // Nome da função mantido simples para 
               República Rebu: Nossa História
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-light italic">
-              Pioneirismo, Tradição e Força Feminina em Ouro Preto desde **1975**.
+              Pioneirismo, Tradição e Força Feminina em Ouro Preto desde 1975.
             </p>
           </div>
         </section>

@@ -35,7 +35,7 @@ const exMoradorasData = [
 // 🎯 Metadados para SEO no App Router
 export const metadata = {
   title: 'Memorial da Rebu | Homenagem às Ex-Moradoras',
-  description: 'Conheça o legado das veteranas que construíram a história da República Rebu, a primeira república federal feminina de Ouro Preto, desde 1975.',
+  description: 'Conheça o legado das veteranas e homenageados que construíram a história da República Rebu, a primeira república federal feminina de Ouro Preto, desde 1975.',
 };
 
 
@@ -83,10 +83,10 @@ export default function Memorial() {
         <section className="py-20 bg-[#1A1A1A] text-white">
           <div className="container mx-auto px-6 text-center">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-[#FF8C00]">
-              Nosso Memorial de Moradoras
+              Nosso Memorial de Moradoras e Homenageados
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-light max-w-3xl mx-auto">
-              Uma homenagem à força e ao legado de todas as mulheres que construíram a história da República Rebu ao longo das décadas.
+              Uma homenagem à força e ao legado de todas as mulheres e homenageados que construíram a história da República Rebu ao longo das décadas.
             </p>
           </div>
         </section>
@@ -107,7 +107,7 @@ export default function Memorial() {
                       href="#veteranas" // Link âncora para a próxima seção
                       className="inline-block border-2 border-[#1A1A1A] text-[#1A1A1A] font-bold py-3 px-8 rounded-full hover:bg-[#1A1A1A] hover:text-white transition duration-300"
                     >
-                      Ver Todas as Veteranas &darr;
+                      Ver Todas(os)&darr;
                     </Link>
                 </div>
             </div>
@@ -117,7 +117,7 @@ export default function Memorial() {
         <section id="veteranas" className="py-20 bg-white">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-extrabold text-center text-[#1A1A1A] mb-12">
-              Todas as Nossas Veteranas
+              Todas as Nossas Veteranas e homenageados
             </h2>
             
             {/* CORREÇÃO: Grid ajustado para no MÁXIMO 3 colunas em telas grandes */}

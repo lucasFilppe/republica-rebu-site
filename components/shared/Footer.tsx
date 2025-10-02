@@ -14,7 +14,7 @@ export const Footer = () => {
             <p className="text-white font-bold text-sm">
               Primeira República Federal Feminina de Ouro Preto.
               <br />
-              Rua do Pilar, Ouro Preto - MG
+              Rua do Pilar, 61, Ouro Preto - MG
             </p>
           </div>
 
