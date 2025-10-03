@@ -9,26 +9,18 @@ import { BookOpen, MapPin, Calendar } from 'lucide-react';
 // --- SEUS DADOS FICTÍCIOS ORIGINAIS ---
 // OBS: Mantenha estes dados, mas saiba que a repetição de nomes/períodos/fotos pode gerar erros no console.
 const exMoradorasData = [
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' },
+  { name: 'Madara Vieira Lessa Tyler', periodo: '1985.2', curso: 'Eng. de Minas ', apelido: 'Madara', foto: '/memorial/madara.jpg' },
+  { name: 'Ellen Delgado Fernandes', periodo: '2009.2', curso: 'Eng. Geológica', apelido: 'Ellen', foto: '/memorial/ellen.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Marina Macêdo', periodo: '2008', curso: 'Direito ', apelido: 'Marina', foto: '/memorial/marina.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Wanda Aparecido Machado Holfmann', periodo: ' 1985.1', curso: 'Eng. Metalúrgica ', apelido: 'Coisinha do Pai', foto: '/memorial/coisinha.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Solange Aparecida Fernandes', periodo: '1990.1', curso: 'Eng. Civil', apelido: 'Solange', foto: '/memorial/solange.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Thaís Helena Rossi de Souza ', periodo: '2006', curso: 'Artes Cênicas', apelido: 'Thc', foto: '/memorial/thc.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Maria do Carmo de Carvalho', periodo: '1979', curso: 'Eng. Civil', apelido: 'Maria Do Carmo', foto: '/memorial/maria-do-carmo.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Maria Martha de Migalhães Garmeiro', periodo: '1979', curso: 'Eng. de Minas ', apelido: 'Mississipi', foto: '/memorial/mississipi.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Maria Auxiliadora Neves Nogueira', periodo: '1978', curso: 'Eng. Metalúrgica ', apelido: 'Chilin', foto: '/memorial/chilin.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Flávia Guimarães Zola ', periodo: '2002', curso: 'Nutrição', apelido: 'Tá tá tá', foto: '/memorial/tata.jpg' }, // Alterei a foto para evitar erro de key
   { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-
+  
 ];
 // OBS: Você precisará de 19 imagens diferentes na sua pasta public/memorial/ para que não haja erro de chave duplicada ou imagem repetida.
 
@@ -65,7 +57,7 @@ const MoradoraCard = ({ name, periodo, curso, apelido, foto }: typeof exMoradora
       </p>
       <div className="text-gray-600 text-sm space-y-1">
         <p className='flex items-center'><BookOpen className="w-4 h-4 mr-2 text-gray-500" /> {curso}</p>
-        <p className='flex items-center'><MapPin className="w-4 h-4 mr-2 text-gray-500" /> Veterana Rebu</p>
+        <p className='flex items-center'><MapPin className="w-4 h-4 mr-2 text-gray-500" /> Veterana(o) Rebu</p>
       </div>
     </div>
   </div>
@@ -83,7 +75,7 @@ export default function Memorial() {
         <section className="py-20 bg-[#1A1A1A] text-white">
           <div className="container mx-auto px-6 text-center">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-[#FF8C00]">
-              Nosso Memorial de Moradoras e Homenageados
+              Nosso Memorial de Ex Alunas e Homenageados
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-light max-w-3xl mx-auto">
               Uma homenagem à força e ao legado de todas as mulheres e homenageados que construíram a história da República Rebu ao longo das décadas.

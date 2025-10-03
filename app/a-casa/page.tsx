@@ -69,17 +69,17 @@ export default function ACasa() {
             <div className="grid md:grid-cols-2 gap-12 text-lg text-gray-700">
                 <div>
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Bed className="mr-2 w-5 h-5"/> Quartos</h3>
-                    <p className="mb-4">Disponibilizamos quartos triplos e quádruplos, todos equipados com camas, armários individuais e mesas de estudo. Priorizamos a organização e o conforto para garantir o descanso necessário.</p>
+                    <p className="mb-4">Disponibilizamos quartos duplos , todos equipados com camas, armários  e mesas de estudo. Priorizamos a organização e o conforto para garantir o descanso necessário.</p>
                     
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Utensils className="mr-2 w-5 h-5"/> Cozinha Completa</h3>
-                    <p className="mb-4">Nossa cozinha é o coração da casa! Totalmente equipada com fogões, geladeiras, micro-ondas e utensílios. A organização é coletiva, garantindo que todos tenham seu espaço.</p>
+                    <p className="mb-4">Nossa cozinha é o coração da casa! Totalmente equipada com fogão, geladeira, micro-ondas e utensílios. A organização é coletiva, garantindo que todos tenham seu espaço.</p>
                 </div>
                 <div>
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Home className="mr-2 w-5 h-5"/> Áreas de Convivência</h3>
-                    <p className="mb-4">Contamos com sala de estudos silenciosa, sala de TV e amplos espaços externos para momentos de lazer e confraternização. Perfeito para relaxar ou receber visitas.</p>
+                    <p className="mb-4">Contamos com sala de estudos silenciosa e amplos espaços externos para momentos de lazer e confraternização. Perfeito para relaxar ou receber visitas.</p>
                     
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Zap className="mr-2 w-5 h-5"/> Estrutura de Apoio</h3>
-                    <p className="mb-4">Lavanderia completa com máquinas de lavar e tanques, internet de alta velocidade (fibra ótica) e um sistema de gerenciamento de contas coletivo transparente.</p>
+                    <p className="mb-4">Lavanderia completa com máquina de lavar e tanques, internet e um sistema de gerenciamento de contas coletivo transparente.</p>
                 </div>
             </div>
 
@@ -131,8 +131,15 @@ export default function ACasa() {
                 {/* Lembre-se de adicionar estas imagens na sua pasta 'public' */}
                 <GalleryItem src="/casa/cozinha.jpg" alt="Cozinha ampla e organizada da República Rebu." />
                 <GalleryItem src="/casa/sala.jpg" alt="Sala de convivência com TV e sofás confortáveis." />
-                <GalleryItem src="/casa/quarto.jpg" alt="Quarto triplo com mesas de estudo e armários." />
+                <GalleryItem src="/casa/quarto-2.jpg" alt="Quarto individual com mesa de estudo e armários." />
+                <GalleryItem src="/casa/quarto.jpg" alt="Quarto duplo com mesas de estudo e armários." />
+                <GalleryItem src="/casa/sala-estudos.jpg" alt="Sala de estudos." />
+                <GalleryItem src="/casa/escada.jpg" alt="Escada para segundo andar." />
+                <GalleryItem src="/casa/corredor.jpg" alt="Corredor andar de baixo." />
+                <GalleryItem src="/casa/area-externa-2.jpg" alt="Área externa com jardim e espaço para churrasco." />
                 <GalleryItem src="/casa/area-externa.jpg" alt="Área externa com jardim e espaço para churrasco." />
+                <GalleryItem src="/casa/area-externa-3.jpg" alt="Área externa com jardim e espaço para churrasco." />
+                <GalleryItem src="/casa/area-externa-4.jpg" alt="Área externa com jardim e espaço para churrasco." />
             </div>
 
             {/* Chamada para o Processo Seletivo (CTA Final) */}

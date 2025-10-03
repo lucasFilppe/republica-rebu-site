@@ -27,21 +27,23 @@ export const Header = () => {
   };
 
   return (
-    <header className="bg-[#1A1A1A] shadow-md sticky top-0 z-50"> 
+    <header className="bg-[#1A1A1A] shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        
+
         {/* Logo da República */}
         <Link href="/" className="flex items-center p-1">
-          <div className="relative w-24 h-9 sm:w-32 sm:h-12 md:w-40 md:h-14 lg:w-48 lg:h-16">
+          <div className="relative w-20 h-20 sm:w-32 sm:h-32 md:w-28 md:h-28 lg:w-24 lg:h-24 
+                  rounded-full overflow-hidden transition-transform duration-300 hover:scale-105">
             <Image
               src="/logo-rebu.jpg"
               alt="Logo REBU - República Estudantil"
               fill
-              className="object-contain rounded-full"
+              className="object-cover"
               priority
             />
           </div>
         </Link>
+
 
         {/* Navegação Desktop - visível em telas maiores */}
         <nav className="hidden md:flex space-x-6">
@@ -53,7 +55,7 @@ export const Header = () => {
         </nav>
 
         {/* Botão de Menu para mobile */}
-        <button 
+        <button
           className="md:hidden text-white focus:outline-none"
           onClick={toggleMenu} // 5. Adiciona o evento de clique
           aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
@@ -66,9 +68,9 @@ export const Header = () => {
       {/* 6. Menu Dropdown Mobile - Visível apenas quando isMenuOpen é true */}
       <div className={`${isMenuOpen ? 'flex' : 'hidden'} md:hidden bg-[#2C2C2C] flex-col space-y-2 py-3 px-4 shadow-xl`}>
         {navItems.map((item) => (
-          <Link 
-            key={item.name} 
-            href={item.href} 
+          <Link
+            key={item.name}
+            href={item.href}
             onClick={toggleMenu} // Fecha o menu ao clicar em um link
             className="text-white text-lg block py-2 px-3 hover:bg-[#3A3A3A] hover:text-[#FF8C00] transition duration-200 rounded-md"
           >

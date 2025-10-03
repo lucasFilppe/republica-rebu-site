@@ -39,7 +39,7 @@ export default function ClientExperiencias({ children }: { children: React.React
         const result = await submitComment(comentario); 
 
         if (result.success) {
-            alert("Comentário enviado com sucesso para moderação! A página será atualizada.");
+            alert("Comentário enviado com sucesso! A página será atualizada.");
             setComentario(''); 
         } else {
             alert(`Erro ao enviar: ${result.message}`);
@@ -92,7 +92,7 @@ export default function ClientExperiencias({ children }: { children: React.React
                 <div className='p-6 bg-white rounded-xl shadow-lg space-y-4'>
                     <p className='text-md text-left text-gray-700 font-semibold'>
                         Olá, {session?.user?.name || 'Usuária'}! Deixe seu depoimento:
-                        <button onClick={handleLogoutGoogle} className='ml-4 text-sm text-[#D44700] hover:text-[#FF8C00] font-medium'>(Sair)</button>
+                        <button onClick={handleLogoutGoogle} className='ml-4 text-sm text-[#D44700] hover:text-[#FF8C00] font-medium'>(Sair da conta)</button>
                     </p>
                     <form onSubmit={handleSubmit} className="space-y-4 text-gray-600">
                         <textarea 

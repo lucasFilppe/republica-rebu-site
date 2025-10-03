@@ -75,8 +75,7 @@ export default function ProcessoSeletivo() {
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Briefcase className="mr-2 w-5 h-5"/> Documentos Necessários</h3>
                     <ul className="list-disc list-inside space-y-2 ml-4">
                         <li>Comprovante de Matrícula (UFOP).</li>
-                        <li>Documento de Identidade e CPF.</li>
-                        <li>Comprovante de Residência atual.</li>
+                        <li>Documento de Identidade.</li>
                         <li>Opcional: Carta de apresentação/Motivação.</li>
                     </ul>
                 </div>

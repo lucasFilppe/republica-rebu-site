@@ -49,7 +49,7 @@ export default function ARepublica() { // Nome da função mantido simples para 
             </h2>
             
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Fundada em 1975, a Rebu não é apenas uma moradia estudantil; é um marco na história de Ouro Preto. Nasceu da necessidade de criar um espaço seguro, acolhedor e, acima de tudo, **federal**, para estudantes mulheres que vinham de diversas regiões do Brasil para cursar a UFOP (antiga EMOP). Nosso nome carrega o peso e a honra de sermos pioneiras.
+              Fundada em 1975, a Rebu não é apenas uma moradia estudantil; é um marco na história de Ouro Preto. Nasceu da necessidade de criar um espaço seguro, acolhedor e, acima de tudo, federal, para estudantes mulheres que vinham de diversas regiões do Brasil para cursar a UFOP (antiga EMOP). Nosso nome carrega o peso e a honra de sermos pioneiras.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed italic">
