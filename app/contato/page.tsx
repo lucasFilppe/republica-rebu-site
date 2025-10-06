@@ -11,7 +11,7 @@ import { Mail, MapPin, Phone, Instagram, Facebook } from 'lucide-react';
 const contatoInfo = [
     { icon: Mail, label: 'E-mail Principal', value: 'republicarebu@email.com', href: 'mailto:republicarebu@email.com' },
     { icon: Phone, label: 'Telefone/WhatsApp', value: '(31) 9 XXXX-XXXX', href: 'https://wa.me/55319XXXXXXXX' },
-    { icon: MapPin, label: 'Endereço', value: 'Rua do Pilar, Ouro Preto - MG', href: 'https://maps.app.goo.gl/SEUENDERECO' },
+    { icon: MapPin, label: 'Endereço', value: 'Rua do Pilar, 61, Ouro Preto - MG', href: 'https://maps.app.goo.gl/SEUENDERECO' },
 ];
 
 const socialLinks = [
@@ -59,6 +59,7 @@ export default function Contato() {
                                     Envie sua Mensagem
                                 </h2>
                                 
+                                {/** 
                                 <form onSubmit={handleSubmit} className="space-y-4 p-6 bg-[#F8F8F8] rounded-xl shadow-lg">
                                     
                                     <input 
@@ -92,7 +93,8 @@ export default function Contato() {
                                     >
                                         Enviar Agora
                                     </button>
-                                </form>
+                                </form>*/}
+
                             </div>
 
                             {/* Coluna 2: Informações de Contato Direto */}

@@ -32,7 +32,7 @@ export const Header = () => {
 
         {/* Logo da República */}
         <Link href="/" className="flex items-center p-1">
-          <div className="relative w-20 h-20 sm:w-32 sm:h-32 md:w-28 md:h-28 lg:w-24 lg:h-24 
+          <div className="relative w-15 h-15 sm:w-32 sm:h-32 md:w-28 md:h-28 lg:w-24 lg:h-24 
                   rounded-full overflow-hidden transition-transform duration-300 hover:scale-105">
             <Image
               src="/logo-rebu.jpg"

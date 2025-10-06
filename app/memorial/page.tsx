@@ -19,8 +19,15 @@ const exMoradorasData = [
   { name: 'Maria Martha de Migalhães Garmeiro', periodo: '1979', curso: 'Eng. de Minas ', apelido: 'Mississipi', foto: '/memorial/mississipi.jpg' }, // Alterei a foto para evitar erro de key
   { name: 'Maria Auxiliadora Neves Nogueira', periodo: '1978', curso: 'Eng. Metalúrgica ', apelido: 'Chilin', foto: '/memorial/chilin.jpg' }, // Alterei a foto para evitar erro de key
   { name: 'Flávia Guimarães Zola ', periodo: '2002', curso: 'Nutrição', apelido: 'Tá tá tá', foto: '/memorial/tata.jpg' }, // Alterei a foto para evitar erro de key
+  { name: 'Júlia Maria Garcia Rocha ', periodo: '1979.2', curso: 'Eng. Metalúrgica /', apelido: 'Juju Pincel', foto: '/memorial/jujupincel.jpg' },
+  { name: 'Anete Antunes Rocha Nunes ', periodo: '1996', curso: 'Eng. Civil', apelido: 'Baiana', foto: '/memorial/baiana.jpg' },
+  { name: 'Isabela Barreto Hildebrand Madureira', periodo: '2010.2', curso: 'Turismo', apelido: 'Isabela', foto: '/memorial/isabela.jpg' },
+  { name: 'Vera', periodo: '', curso: '', apelido: 'Vera', foto: '/memorial/vera.jpg' },
+  { name: 'Marcelle Henrique de Ávila ', periodo: '2018.1', curso: 'Arquitetura e Urbanismo', apelido: 'Lag', foto: '/memorial/lag.jpg' },
   { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
   
+  //{ name: '', periodo: '', curso: '', apelido: '', foto: '/memorial/garfield.jpg' },
+
 ];
 // OBS: Você precisará de 19 imagens diferentes na sua pasta public/memorial/ para que não haja erro de chave duplicada ou imagem repetida.
 
