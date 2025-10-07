@@ -49,11 +49,13 @@ export default function ARepublica() { // Nome da função mantido simples para 
             </h2>
             
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Fundada em 1975, a Rebu não é apenas uma moradia estudantil; é um marco na história de Ouro Preto. Nasceu da necessidade de criar um espaço seguro, acolhedor e, acima de tudo, federal, para estudantes mulheres que vinham de diversas regiões do Brasil para cursar a UFOP (antiga EMOP). Nosso nome carrega o peso e a honra de sermos pioneiras.
+            A República Rebu foi fundada em março de 1975, tornando-se um marco histórico por ser a primeira república federal feminina da Escola de Minas da UFOP. Sua origem está na luta e na persistência de alunas que, diante da falta de moradia estudantil para mulheres, conquistaram a tão sonhada casa na Rua do Pilar, nº 61, transformando um ideal em realidade.
             </p>
 
+            <p  className="text-lg text-gray-700 mb-6 leading-relaxed">O nome “Rebu”, inspirado em uma novela da época, passou a representar muito mais que um título: simboliza coragem, pioneirismo e protagonismo feminino dentro do sistema republicano</p>
+
             <p className="text-lg text-gray-700 leading-relaxed italic">
-              &quot;Nossa história é escrita com a garra de cada moradora que, ao longo das décadas, moldou a cultura de respeito, autonomia e irmandade que nos define.&quot;
+              &quot;Ao longo de 50 anos de história, a Rebu construiu uma trajetória única, repleta de vivências, amizades e conquistas. Mais do que um lar estudantil, consolidou-se como espaço de acolhimento e pertencimento, atravessando gerações e mantendo viva a tradição republicana de Ouro Preto.&quot;
             </p>
           </div>
         </section>
