@@ -69,7 +69,7 @@ export default function ACasa() {
             <div className="grid md:grid-cols-2 gap-12 text-lg text-gray-700">
                 <div>
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Bed className="mr-2 w-5 h-5"/> Quartos</h3>
-                    <p className="mb-4">Disponibilizamos quartos duplos , todos equipados com camas, armários  e mesas de estudo. Priorizamos a organização e o conforto para garantir o descanso necessário.</p>
+                    <p className="mb-4">Disponibilizamos quartos individuais e duplos , todos equipados com camas, armários  e mesas de estudo. Priorizamos a organização e o conforto para garantir o descanso necessário.</p>
                     
                     <h3 className="font-bold text-2xl text-[#D44700] mb-3 flex items-center"><Utensils className="mr-2 w-5 h-5"/> Cozinha Completa</h3>
                     <p className="mb-4">Nossa cozinha é o coração da casa! Totalmente equipada com fogão, geladeira, micro-ondas e utensílios. A organização é coletiva, garantindo que todos tenham seu espaço.</p>

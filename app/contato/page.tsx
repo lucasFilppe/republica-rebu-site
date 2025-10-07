@@ -10,8 +10,8 @@ import { Mail, MapPin, Phone, Instagram, Facebook } from 'lucide-react';
 // --- DADOS DE CONTATO ---
 const contatoInfo = [
     { icon: Mail, label: 'E-mail Principal', value: 'republicarebu@email.com', href: 'mailto:republicarebu@email.com' },
-    { icon: Phone, label: 'Telefone/WhatsApp', value: '(31) 9 XXXX-XXXX', href: 'https://wa.me/55319XXXXXXXX' },
-    { icon: MapPin, label: 'Endereço', value: 'Rua do Pilar, 61, Ouro Preto - MG', href: 'https://maps.app.goo.gl/SEUENDERECO' },
+    { icon: Phone, label: 'Telefone/WhatsApp', value: 'Laura Martins', href: 'https://wa.me/553198135259' },
+    { icon: MapPin, label: 'Endereço', value: 'Rua do Pilar, 61, Ouro Preto - MG', href: 'https://www.google.com/maps/dir//R.+do+Pilar,+61+-+Ouro+Preto,+MG,+35402-036/@-20.3866675,-43.5888749,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0xa40ae10da5f051:0x33312d8b7f3cd363!2m2!1d-43.5064694!2d-20.3866913?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D'},
 ];
 
 const socialLinks = [
