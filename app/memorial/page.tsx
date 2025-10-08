@@ -9,6 +9,7 @@ import { BookOpen, MapPin, Calendar } from 'lucide-react';
 // --- SEUS DADOS FICTÍCIOS ORIGINAIS ---
 // OBS: Mantenha estes dados, mas saiba que a repetição de nomes/períodos/fotos pode gerar erros no console.
 const exMoradorasData = [
+  { name: 'Evagelina Maria Apparício da Silva', periodo: '1978', curso: 'Eng. de Minas', apelido: 'Vanja', foto: '/memorial/vanja.jpg' },
   { name: 'Madara Vieira Lessa Tyler', periodo: '1985.2', curso: 'Eng. de Minas ', apelido: 'Madara', foto: '/memorial/madara.jpg' },
   { name: 'Ellen Delgado Fernandes', periodo: '2009.2', curso: 'Eng. Geológica', apelido: 'Ellen', foto: '/memorial/ellen.jpg' }, // Alterei a foto para evitar erro de key
   { name: 'Marina Macêdo', periodo: '2008', curso: 'Direito ', apelido: 'Marina', foto: '/memorial/marina.jpg' }, // Alterei a foto para evitar erro de key
@@ -24,10 +25,23 @@ const exMoradorasData = [
   { name: 'Isabela Barreto Hildebrand Madureira', periodo: '2010.2', curso: 'Turismo', apelido: 'Isabela', foto: '/memorial/isabela.jpg' },
   { name: 'Vera', periodo: '', curso: '', apelido: 'Vera', foto: '/memorial/vera.jpg' },
   { name: 'Marcelle Henrique de Ávila ', periodo: '2018.1', curso: 'Arquitetura e Urbanismo', apelido: 'Lag', foto: '/memorial/lag.jpg' },
-  { name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, // Alterei a foto para evitar erro de key
-  
-  //{ name: '', periodo: '', curso: '', apelido: '', foto: '/memorial/garfield.jpg' },
+  { name: 'Isabela Vasconcelos Piva ', periodo: '2013.2', curso: 'letras', apelido: 'Pira', foto: '/memorial/pira.jpg' },
+  { name: 'Leila Isa Vilaça', periodo: '1988.1', curso: 'Eng. Geológica', apelido: 'Leila', foto: '/memorial/leila.jpg' },
+  { name: 'Soraya Martins Malacarne', periodo: '2005.1', curso: 'Eng. Geológica', apelido: 'Coxão', foto: '/memorial/coxao.jpg' },
+  { name: 'Nereide Bosso de Souza ', periodo: '1989', curso: 'Eng. Geológica', apelido: 'Nil', foto: '/memorial/nil.jpg' },
+  { name: 'Makênia Olveira S. Gomes', periodo: '2004,2', curso: 'Ciências Biológicas', apelido: 'Makênia', foto: '/memorial/makenia.jpg' },
+  { name: 'Bárbara Zambelli Azevedo', periodo: '2016.2', curso: 'Eng. Geológica ', apelido: 'Tumé', foto: '/memorial/tume.jpg' },
+  { name: 'Angela Maria Pimenta', periodo: '1979', curso: 'Eng. Geológica ', apelido: 'Angela', foto: '/memorial/angela.jpg' },
+  { name: 'Monique Toledo Salgado', periodo: '1998', curso: 'Eng. Civil', apelido: 'Monique', foto: '/memorial/monique.jpg' },
+  { name: 'Sara Pinheiro Câmara ', periodo: '2018.2', curso: 'Eng. de Controle de Automação', apelido: 'Da Seda', foto: '/memorial/daseda.jpg' },
+  { name: 'Makeliny Oliveira S. Gomes', periodo: '1999', curso: 'Filosofia', apelido: 'Mak-Laren', foto: '/memorial/maklaren.jpg' },
+  { name: 'Renata Gouveia da Silva', periodo: '2010.2', curso: 'Turismo', apelido: 'Kta-flan', foto: '/memorial/ktaflan.jpg' },
+  { name: 'Alice Leite', periodo: '2012.1', curso: 'Ciência Biológica', apelido: 'Alice', foto: '/memorial/alice.jpg' },
+  { name: 'Flávia M. F. Nascimento', periodo: '1991.2', curso: 'Eng. Geológica', apelido: 'Flávia', foto: '/memorial/flavia.jpg' },
+  { name: 'Maria Thelma da Silva', periodo: '1980', curso: 'Eng. de Minas', apelido: 'Telminha', foto: '/memorial/telminha.jpg' },
 
+  //{ name: '', periodo: '', curso: '', apelido: '', foto: '/memorial/garfield.jpg' },
+  //{ name: 'Paulo Simões', periodo: '2008 - 2011', curso: 'História', apelido: 'Garfield', foto: '/memorial/garfield.jpg' }, 
 ];
 // OBS: Você precisará de 19 imagens diferentes na sua pasta public/memorial/ para que não haja erro de chave duplicada ou imagem repetida.
 
