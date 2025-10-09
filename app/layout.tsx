@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css'; // Importa o CSS global e o Tailwind
 
 // 1. Importa as duas fontes do Google
@@ -42,6 +43,7 @@ export default function RootLayout({
         {/* O children aqui é o conteúdo de cada página */}
         <AuthProvider>
         {children}
+        <Analytics />
         </AuthProvider>
       </body>
     </html>
